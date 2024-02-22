@@ -130,6 +130,7 @@ html{
 #product{
     margin: 20px;
     padding: 70px;
+    text-align: center;
 }
 #product .h2size{
     text-align: center;
@@ -138,13 +139,9 @@ html{
 #product span{
     color: crimson;
 }
-.tibo{
-    display: grid;
-    grid-template-rows: 3fr;
-    grid-template-columns: 1fr;
-}
 .balig{
   margin: 10px;
+  display: inline-block;
   border: 1px solid #ccc;
   width: 30%;
 }
@@ -172,8 +169,8 @@ html{
     background-color: rgb(133, 16, 39);
     color: white;
   }
-  #contact{
-    padding: 10px;
+  #contacts{
+    padding: 30px;
     text-align: center;
   }
  .cuntact{
@@ -185,15 +182,15 @@ html{
     font-size: 36px;
     margin-bottom: 40px;
   }
-  #contact .wrapper{
+  #contacts .wrapper{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
-  #contact .form{
+  #contacts .form{
     text-align: left;
   }
-  #contact .form h3{
+  #contacts .form h3{
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;
@@ -213,7 +210,7 @@ html{
     outline: none;
     box-shadow: 0 0 8px #bbb;
   }
-  #contact button{
+  #contacts button{
     display: inline-block;
     padding: 12px 24px;
     background-color: #4caf50;
@@ -225,25 +222,26 @@ html{
 button:hover{
     background-color: #45a049;
 }
-#contact .info{
+#contacts .info{
     text-align: left;
 
 }
-#contact .info h3{
+#contacts .info h3{
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;
 }
-#contact .info p{
+#contacts .info p{
     margin-bottom: 10px;
     font-size: 1.5rem;
     color: #555;
 }
-#contact .info i{
+#contacts .info i{
     color: #4caf50;
     margin-right: 10px;
 }
 footer{
+    margin-top: 30px;
     background-color: #555;
     text-align: center;
     width: 100%;
@@ -296,7 +294,6 @@ footer h4{
     }
     .balig{
         width: 100%;
-        display: block;
         margin-bottom: 20px;
 
       }
@@ -322,7 +319,7 @@ footer h4{
       .cuntact{
         padding: 20px;
       }
-      #contact .wrapper{
+      #contacts .wrapper{
         grid-template-columns: 1fr;
       }
       footer{
